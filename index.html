@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicoes</title>
+    <script src="Js.js"></script>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+          
+        }
+        .content{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            margin: 2rem;
+            box-sizing: border-box;
+         
+        }
+        #titlo{
+            margin-left: 30rem;
+            margin-bottom: 10rem;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="setion">
+            <h1 id="titlo">Do You Know...</h1>
+            <h1>How many hours is one day?</h1>
+            There's <input type="text" id="km"> Hours
+            <input type="button" value="My answer" id="botao" onclick="clicar()">
+            <p id="toy"></p>
+         </div>   
+         <div class="section2">
+            <h1>What is the largest continent? </h1>
+            The largest continent is <input type="text" id="pais">
+            <input type="button" value="Test if I know" id="botao2" onclick="clicar2()">
+            <p id="toy2"></p>
+          </div>
+    </div>    
+</body>
+</html>
